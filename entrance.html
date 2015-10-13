@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>翔之的屠宰場</title>
+
+<META NAME="Author" CONTENT="Richya">
+<style>
+	body {
+		margin:0;
+		padding:0;
+		background: #000 url(antrance.jpg) center center fixed no-repeat;
+		-moz-background-size: cover;
+		background-size: cover;
+	}		
+</style>
+
+<head/>
+<body>
+		<center>
+<form name="redirect">
+<br><br><br><br><br><br><br><br>
+<font face="標楷體"color="#FF3333"size="7">歡迎來到翔之的屠宰場<br>來享受一場殺戮的饗宴吧<br></font><br> 
+<font face="標楷體"color="#33CCFF"size="4">10秒後將自動進入首頁<br>
+倒數計時<input type="text" size="1" name="redirect2" style="font-size: 15pt; border: 1 :inset #FFFFFF;font-weight: bold">
+秒</font><br>   
+</form>
+<script language="JavaScript">                              
+<!--                         
+var targetURL="homepage.html"                         
+var countdownfrom=10                         
+var currentsecond=document.redirect.redirect2.value=countdownfrom+1                        
+function countredirect(){                         
+if (currentsecond!=1){                         
+currentsecond-=1                         
+document.redirect.redirect2.value=currentsecond                         
+}                         
+else{                         
+window.location=targetURL                         
+return                         
+}                         
+setTimeout("countredirect()",1000)                         
+}                                                  
+countredirect()                         
+-->                         
+</script>                         
+</form>
+</center>
+
+<p align="center"><font face="Comic Sans MS"color="#FFFF99"size="6"><a href="homepage.html"STYLE="text-decoration:none">直接進入</a></font><br></p>
+
+	<body/>
+<html/>
